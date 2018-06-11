@@ -1,0 +1,71 @@
+.navbar-brand {
+  padding: 0px;
+}
+nav {
+	margin-top: 15px; 
+}
+
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
+.service::before {
+    background: url('../images/doctor.png') no-repeat;
+    content: "";
+    float: left;
+    height: 24px;
+    margin-right: 5px;
+    width: 24px;
+}
+
+.service {
+    line-height: 24px; /* Как высота картинки */
+}
+.service:hover {
+	color: green;
+}
+
+.register::before {
+    background: url('../images/register.png') no-repeat;
+    content: "";
+    float: left;
+    height: 24px;
+    margin-right: 5px;
+    width: 24px;
+}
+
+.register {
+    line-height: 24px; /* Как высота картинки */
+}
+
+.patient::before {
+    background: url('../images/patient.png') no-repeat;
+    content: "";
+    float: left;
+    height: 24px;
+    margin-right: 5px;
+    width: 24px;
+}
+
+.patient {
+    line-height: 24px; /* Как высота картинки */
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.main-carousel {
+}
+
+.carousel-cell {
+    width: 100%;
+    margin-right: 10px;
+}
+
+.img-carousel {
+    width: 100%;
+}

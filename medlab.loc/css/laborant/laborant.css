@@ -1,0 +1,5 @@
+/*Выравниваю каждый input индикатора по середине*/
+.form-indicator {
+  float: none;
+  margin: 0 auto;
+}

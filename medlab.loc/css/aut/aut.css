@@ -1,0 +1,11 @@
+/* register.php - звёздочка над обязательными полями */
+label.required:after
+{
+    color: red;
+    content: " *";
+}
+.s:before {
+	color: blue;
+    content: " *";
+}
+/**/

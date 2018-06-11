@@ -1,0 +1,16 @@
+.norm_low {
+	color: red;
+}
+.norm_high {
+	color: blue;
+}
+.resultMedtest {
+	float: none;
+  	margin: 0 auto;
+}
+h1 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}

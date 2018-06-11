@@ -1,0 +1,10 @@
+.thead-medtest {
+	background: #4CAF50;
+	color: white;
+}
+@media (max-width: 480px) {
+	.price {
+	text-align: center;
+	font-size: 12px;
+        }
+}

@@ -1,0 +1,40 @@
+.alert-success {
+	margin-top: 10px;
+}
+h3, h4 {
+	text-align: center;
+}
+.left-col {
+	float:left;
+}
+.right-col {
+	float:right;
+}
+.clear {
+	clear: both;
+}
+hr {
+	border: none; /* Убираем границу для браузера Firefox */
+    color: white; /* Цвет линии для остальных браузеров */
+    background-color: white; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+}
+@media print {
+    /* здесь будут стили для печати */
+    hr {
+    display: block;
+    height: 1px;
+    background: transparent;
+    width: 100%;
+    border: none;
+    border-top: solid 1px #bbbbbb;
+    }
+    .hr_napr {
+        display: block;
+        height: 1px;
+        background: transparent;
+        width: 100%;
+        border: none;
+        border-top: dotted 1px #bbbbbb;
+    }
+}

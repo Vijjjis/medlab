@@ -1,0 +1,28 @@
+.search_result {
+    border-radius: 4px;
+    border: 1px #ccc solid; 
+}
+.search_result li{
+    list-style: none;
+    border-bottom: 1px #ccc solid;
+    padding: 5px 10px;
+    margin: 0 0 0 -40px;
+    cursor: pointer;
+    transition:0.3s;
+}
+
+.search_result li:hover{
+    background: #0896D3;
+}
+.selectpicker {
+    text-align-last: center; 
+}
+@media print {
+    /* здесь будут стили для печати */
+    h1 {
+        display: none;
+    }
+    .form-group {
+        display: none;
+    }
+}
